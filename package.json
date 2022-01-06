@@ -1,11 +1,11 @@
 {
-    "name": "vue-hot-loader",
-    "version": "0.0.5",
+    "name": "vue-hmr-loader",
+    "version": "1.0.1",
     "description": "Vue.js js component loader for Webpack",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jshmrtn/vue-hot-loader.git"
+        "url": "https://github.com/Hooper93/vue-hot-loader"
     },
     "keywords": [
         "vue",
@@ -17,28 +17,11 @@
         "index.js",
         "lib"
     ],
-    "author": "JOSHMARTIN GmbH",
-    "contributors": [{
-            "name": "Jonatan Männchen",
-            "email": "jonatan@maennchen.ch",
-            "url": "https://commanders.ch"
-        },
-        {
-            "name": "Jeremy Zahner",
-            "email": "zahner@joshmartin.ch",
-            "url": "https://joshmartin.ch"
-        },
-        {
-            "name": "Hooper Zou",
-            "email": "admin@hooperui.com",
-            "url": "https://www.hooperui.com"
-        }
-    ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jshmrtn/vue-hot-loader/issues"
+        "url": "https://github.com/Hooper93/vue-hot-loader/issues"
     },
-    "homepage": "https://github.com/jshmrtn/vue-hot-loader",
+    "homepage": "https://github.com/Hooper93/vue-hot-loader",
     "scripts": {
         "lint": "eslint .",
         "test": "npm run lint"
@@ -48,6 +31,6 @@
     },
     "dependencies": {
         "loader-utils": "^1.1.0",
-        "vue-hot-reload-api": "^2.0.7"
+        "vue-hot-reload-api": "^2.3.4"
     }
 }
