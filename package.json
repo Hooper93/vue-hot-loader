@@ -1,7 +1,7 @@
 {
     "name": "vue-hmr-loader",
-    "version": "1.0.1",
-    "description": "Vue.js js component loader for Webpack",
+    "version": "1.0.2",
+    "description": "Vue.js js component hmr loader for Webpack",
     "main": "index.js",
     "repository": {
         "type": "git",
